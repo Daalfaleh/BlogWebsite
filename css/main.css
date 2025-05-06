@@ -1,0 +1,48 @@
+ul h3 {
+margin-left: 20px;
+}
+.users p {
+  padding: 10px;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  color: #29282f;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.users form {
+  width: 100%;
+  background-color: white;
+}
+
+.users .right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 98%;
+}
+
+.users .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 98%;
+}
+
+.users ul li {
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.users ul li a {
+  font-weight: bold;
+  font: 20px;
+}
